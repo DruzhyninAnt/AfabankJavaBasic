@@ -12,7 +12,7 @@ public class Main {
         deposit = Double.parseDouble(scanner.nextLine());
         System.out.println("How long (month) ?: ");
          month =Double.parseDouble( scanner.nextLine());
-      //  System.out.println("one day's percent :"+percent);
+      
         System.out.println("you'll earn approximately "+ deposit*percent*30*month/100/365 +" usd");
 
     }
