@@ -7,8 +7,9 @@ public class Main {
         double percent=12.0;
         double deposit;
         double month;
+        // прибыль по депозиту  рассчитывается по формуле: прибыль_по_депозиту= ((ставка_годовая_в_процентах/100)*размер_депозита/365)*30*количество_месяцев
         Scanner scanner=new Scanner(System.in);
-        System.out.println("How much (money)? :");
+        System.out.println("How much (money, USD)? :");
         deposit = Double.parseDouble(scanner.nextLine());
         System.out.println("How long (month) ?: ");
          month =Double.parseDouble( scanner.nextLine());
