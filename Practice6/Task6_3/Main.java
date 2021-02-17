@@ -25,9 +25,6 @@ public class Main {
         char firstChar;
         int i=0;
         int j=-1;
-
-
-
                 while (i < numberWord - 1) {
 
                     j = str.indexOf(" ", j + 1);
@@ -36,12 +33,8 @@ public class Main {
                         System.out.println("нет слова с таким номером");
                         return firstChar = ' ';
                     }
-
                     i++;
                 }
-
-
                 return firstChar =  str.charAt(j + 1);
-
     }
 }
